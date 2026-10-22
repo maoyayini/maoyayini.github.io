@@ -14,9 +14,13 @@ GitHub Pages 使用 main 分支根目录发布，`.nojekyll` 禁用 Jekyll。没
 
 ## AdMob 的 app-ads.txt
 
-本次尚未发布 app-ads.txt：需要先取得 AdMob 后台提供的完整、真实的授权记录，不能使用测试 ID 或占位的发布商编号。
+网站根目录的 `app-ads.txt` 使用发行者于 2026-10-22 提供的正式应用 ID `ca-app-pub-4368283334063522~3548121431` 对应的发布商编号，按 Google 官方直接合作方格式记录授权：
 
-取得后将纯文本文件 `app-ads.txt` 放在此仓库根目录，地址应为 `https://maoyayini.github.io/app-ads.txt`。在 App Store Connect 的营销网址填写开发者主页，待商店页面生效后再到 AdMob 验证；开发者网站本身发布成功不代表 AdMob 验证已通过。
+```text
+google.com, pub-4368283334063522, DIRECT, f08c47fec0942fa0
+```
+
+发布后地址为 `https://maoyayini.github.io/app-ads.txt`。在 App Store Connect 的营销网址填写开发者主页，待商店页面生效后再到 AdMob 验证；文件存在不代表 AdMob 验证已通过。未来添加其它广告网络时，需按实际合作关系补充授权记录。
 
 官方说明：<https://support.google.com/admob/answer/9363762?hl=en>。
 
